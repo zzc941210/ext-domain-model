@@ -45,6 +45,10 @@ extension Double {
     var YEN : Money {
         return Money(amount: self, currency: .YEN)
     }
+    
+    var CAN : Money {
+        return Money(amount: self, currency: .CAN)
+    }
 }
 ////////////////////////////////////
 // Money
